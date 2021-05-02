@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    padding: 70px;
+    background: white;
+}
+section {
+    padding: 70px;
+    width: 50%;
+    float: left;
+    background-color: darkcyan;
+    height: 450px;
+}
+.right {
+    width: 50%;
+    float: right;
+    background-color: rgba(0, 139, 139, 0.705);
+    height: 450px;
+    color: white;
+    padding: 70px;
+}
+form input {
+    width: 70%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 200px;
+    background-color: greenyellow;
+    color: white;
+}
